@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://huohuas001.github.io/Blogs</id>
+    <title>HuoHua的博客</title>
+    <link href="https://huohuas001.github.io/Blogs" />
+    <updated>2021-08-31T14:07:51.000Z</updated>
+    <entry>
+        <id>https://huohuas001.github.io/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/</id>
+        <title>记录Phsebot</title>
+        <link rel="alternate" href="https://huohuas001.github.io/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/"/>
+        <content type="html">&lt;p&gt;&lt;a href=&#34;https://imgtu.com/i/h3t1MR&#34;&gt;&lt;img src=&#34;https://z3.ax1x.com/2021/08/28/h3t1MR.png&#34; alt=&#34;h3t1MR.png&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Phsebot呢是我在开学前想到的一个想法&lt;/p&gt;
+&lt;p&gt;之前的话呢主要是Pyr因为Python底层的原因Naive只读取到了WriteFile底层，而Python底层是WriteConsole&lt;/p&gt;
+&lt;p&gt;非常不合理（（（&lt;/p&gt;
+&lt;p&gt;于是呢我花了最后一周的时间（作业已经放弃了）做出了Phsebot，非常的有Naive味道，&lt;/p&gt;
+&lt;p&gt;一开始呢我是用易语言做窗口，但是Yanhy跟我讲e的控制台监听像💩一样，之后我就想过放弃，但在网上翻来翻去看到一篇文章，易语言如何监听控制台。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;bds.exe &amp;gt; console.txt&lt;br&gt;&lt;br&gt;然后去读console.txt就行&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我真的开始做了，去网上搜了搜ttk的窗口示范，一路修修改改就成了，后续就是一些功能上的完善了&lt;/p&gt;
+&lt;p&gt;hello &lt;a href=&#34;https://huohuas001.github.io/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/&#34;&gt;https://huohuas001.github.io/Blogs/2021/08/31/记录Phsebot/&lt;/a&gt; bye&lt;/p&gt;
+</content>
+        <updated>2021-08-31T14:07:51.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://huohuas001.github.io/Blogs/2021/08/31/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="https://huohuas001.github.io/Blogs/2021/08/31/hello-world/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&#34;https://hexo.io/docs/&#34;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&#34;https://hexo.io/docs/troubleshooting.html&#34;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&#34;https://github.com/hexojs/hexo/issues&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;Quick-Start&#34;&gt;&lt;a href=&#34;#Quick-Start&#34; class=&#34;headerlink&#34; title=&#34;Quick Start&#34;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&#34;Create-a-new-post&#34;&gt;&lt;a href=&#34;#Create-a-new-post&#34; class=&#34;headerlink&#34; title=&#34;Create a new post&#34;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo new &lt;span class=&#34;string&#34;&gt;&amp;quot;My New Post&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/writing.html&#34;&gt;Writing&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Run-server&#34;&gt;&lt;a href=&#34;#Run-server&#34; class=&#34;headerlink&#34; title=&#34;Run server&#34;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/server.html&#34;&gt;Server&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Generate-static-files&#34;&gt;&lt;a href=&#34;#Generate-static-files&#34; class=&#34;headerlink&#34; title=&#34;Generate static files&#34;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+</content>
+        <updated>2021-08-31T13:49:26.040Z</updated>
+    </entry>
+</feed>
