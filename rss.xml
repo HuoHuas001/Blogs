@@ -3,7 +3,7 @@
     <channel>
         <title>HuoHua的博客</title>
         <link>https://huohuas001.github.io/Blogs</link>
-        <description>az</description>
+        <description>别人的初二在干嘛，我在干嘛？</description>
         <language>zh-CN</language>
         <pubDate>Tue, 31 Aug 2021 22:07:51 +0800</pubDate>
         <lastBuildDate>Tue, 31 Aug 2021 22:07:51 +0800</lastBuildDate>
@@ -22,7 +22,7 @@
 &lt;p&gt;bds.exe &amp;gt; console.txt&lt;br&gt;&lt;br&gt;然后去读console.txt就行&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;我真的开始做了，去网上搜了搜ttk的窗口示范，一路修修改改就成了，后续就是一些功能上的完善了&lt;/p&gt;
-&lt;p&gt;hello &lt;a href=&#34;https://huohuas001.github.io/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/&#34;&gt;https://huohuas001.github.io/Blogs/2021/08/31/记录Phsebot/&lt;/a&gt; bye&lt;/p&gt;
+&lt;p&gt;Link =&amp;gt; &lt;a href=&#34;https://huohuas001.github.io/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/&#34;&gt;https://huohuas001.github.io/Blogs/2021/08/31/记录Phsebot/&lt;/a&gt; &amp;lt;=&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -43,6 +43,7 @@
 &lt;h3 id=&#34;Deploy-to-remote-sites&#34;&gt;&lt;a href=&#34;#Deploy-to-remote-sites&#34; class=&#34;headerlink&#34; title=&#34;Deploy to remote sites&#34;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 
 &lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Link =&amp;gt; &lt;a href=&#34;https://huohuas001.github.io/Blogs/2021/08/31/hello-world/&#34;&gt;https://huohuas001.github.io/Blogs/2021/08/31/hello-world/&lt;/a&gt; &amp;lt;=&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
