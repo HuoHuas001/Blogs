@@ -9,7 +9,7 @@
             "url": "https://www.txssb.cn/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/",
             "title": "记录Phsebot",
             "date_published": "2021-08-31T14:07:51.000Z",
-            "content_html": "<p><a href=\"https://imgtu.com/i/h3t1MR\"><img src=\"https://z3.ax1x.com/2021/08/28/h3t1MR.png\" alt=\"h3t1MR.png\"></a></p>\n<p>Phsebot呢是我在开学前想到的一个想法</p>\n<p>之前的话呢主要是Pyr因为Python底层的原因Naive只读取到了WriteFile底层，而Python底层是WriteConsole</p>\n<p>非常不合理（（（</p>\n<p>于是呢我花了最后一周的时间（作业已经放弃了）做出了Phsebot，非常的有Naive味道，</p>\n<p>一开始呢我是用易语言做窗口，但是Yanhy跟我讲e的控制台监听像💩一样，之后我就想过放弃，但在网上翻来翻去看到一篇文章，易语言如何监听控制台。</p>\n<blockquote>\n<p>bds.exe &gt; console.txt<br><br>然后去读console.txt就行</p>\n</blockquote>\n<p>我真的开始做了，去网上搜了搜ttk的窗口示范，一路修修改改就成了，后续就是一些功能上的完善了</p>\n<p>Link =&gt; <a href=\"https://huohuas001.github.io/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/\">https://huohuas001.github.io/Blogs/2021/08/31/记录Phsebot/</a> &lt;=</p>\n",
+            "content_html": "<p><a href=\"https://imgtu.com/i/h3t1MR\"><img src=\"https://z3.ax1x.com/2021/08/28/h3t1MR.png\" alt=\"h3t1MR.png\"></a></p>\n<p>Phsebot呢是我在开学前想到的一个想法</p>\n<p>之前的话呢主要是Pyr因为Python底层的原因Naive只读取到了WriteFile底层，而Python底层是WriteConsole</p>\n<p>非常不合理（（（</p>\n<p>于是呢我花了最后一周的时间（作业已经放弃了）做出了Phsebot，非常的有Naive味道，</p>\n<p>一开始呢我是用易语言做窗口，但是Yanhy跟我讲e的控制台监听像💩一样，之后我就想过放弃，但在网上翻来翻去看到一篇文章，易语言如何监听控制台。</p>\n<blockquote>\n<p>bds.exe &gt; console.txt<br><br>然后去读console.txt就行</p>\n</blockquote>\n<p>我真的开始做了，去网上搜了搜ttk的窗口示范，一路修修改改就成了，后续就是一些功能上的完善了</p>\n<p>Link =&gt; <a href=\"https://www.txssb.cn/Blogs/2021/08/31/%E8%AE%B0%E5%BD%95Phsebot/\">https://www.txssb.cn/Blogs/2021/08/31/记录Phsebot/</a> &lt;=</p>\n",
             "tags": [
                 "python",
                 "phsebot"
