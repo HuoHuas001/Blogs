@@ -1,0 +1,19 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "HuoHua的博客 • All posts by \"命令\" tag",
+    "description": "别人的初二在干嘛，我在干嘛？",
+    "home_page_url": "https://www.txssb.cn/Blogs",
+    "items": [
+        {
+            "id": "https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/",
+            "url": "https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/",
+            "title": "Phsebot命令表",
+            "date_published": "2021-09-07T14:56:09.000Z",
+            "content_html": "<h1 id=\"Phsbot声明\"><a href=\"#Phsbot声明\" class=\"headerlink\" title=\"Phsbot声明\"></a>Phsbot声明</h1><ul>\n<li>本机器人和游戏内容无关，请不要再反馈什么：</li>\n<li><ul>\n<li>我升级了Phsebot xx版本，用了xx插件，你看这个聊天信息变成什么样子</li>\n</ul>\n</li>\n<li><ul>\n<li>你看这个老是出现什么乱七八糟的乱码(注：pfe信息颜色不是乱码！！！！)</li>\n</ul>\n</li>\n</ul>\n<h1 id=\"Phsebot命令表\"><a href=\"#Phsebot命令表\" class=\"headerlink\" title=\"Phsebot命令表\"></a>Phsebot命令表</h1><table>\n<thead>\n<tr>\n<th>命令</th>\n<th>介绍</th>\n<th>用法</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>bindid</td>\n<td>绑定xboxid</td>\n<td>&lt;&lt;bindid “$1”</td>\n</tr>\n<tr>\n<td>start</td>\n<td>开服</td>\n<td>&lt;&lt;start</td>\n</tr>\n<tr>\n<td>unbind</td>\n<td>解绑xboxid</td>\n<td>&lt;&lt;unbind %qqid%</td>\n</tr>\n<tr>\n<td>motd</td>\n<td>motd请求</td>\n<td>&lt;&lt;motd xxx.xxx.xxx:19132（端口可省略）</td>\n</tr>\n</tbody></table>\n<h1 id=\"Phsebot占位符\"><a href=\"#Phsebot占位符\" class=\"headerlink\" title=\"Phsebot占位符\"></a>Phsebot占位符</h1><table>\n<thead>\n<tr>\n<th>占位符</th>\n<th>介绍</th>\n<th>适用范围</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>%qqnick%</td>\n<td>qq昵称</td>\n<td>群消息</td>\n</tr>\n<tr>\n<td>%qqid%</td>\n<td>qq号</td>\n<td>群消息</td>\n</tr>\n<tr>\n<td>%xboxid%</td>\n<td>qq号绑定的xboxid（没绑定默认为%xboxid%）</td>\n<td>群消息</td>\n</tr>\n<tr>\n<td>%cpu%</td>\n<td>cpu占用率</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%ram_1%</td>\n<td>内存占用百分比</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%ram_2%</td>\n<td>剩余内存</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%ram_3%</td>\n<td>已用内存</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%ram_4%</td>\n<td>总内存</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%server_motd%</td>\n<td>服务器motd</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%server_version%</td>\n<td>服务器版本</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%server_online%</td>\n<td>在线玩家数</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%server_maxonline%</td>\n<td>最大玩家数</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>%server_levelname%</td>\n<td>服务器存档名</td>\n<td>群消息&amp;控制台</td>\n</tr>\n<tr>\n<td>\\n</td>\n<td>换行</td>\n<td>群消息&amp;控制台</td>\n</tr>\n</tbody></table>\n<p>Link =&gt; <a href=\"https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/\">https://www.txssb.cn/Blogs/2021/09/07/Phsebot命令表/</a> &lt;=</p>\n",
+            "tags": [
+                "命令",
+                "Phsebot"
+            ]
+        }
+    ]
+}

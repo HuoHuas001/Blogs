@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.txssb.cn/Blogs</id>
+    <title>HuoHua的博客 • Posts by &#34;命令&#34; tag</title>
+    <link href="https://www.txssb.cn/Blogs" />
+    <updated>2021-09-07T14:56:09.000Z</updated>
+    <category term="python" />
+    <category term="phsebot" />
+    <category term="命令" />
+    <category term="Phsebot" />
+    <entry>
+        <id>https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/</id>
+        <title>Phsebot命令表</title>
+        <link rel="alternate" href="https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/"/>
+        <content type="html">&lt;h1 id=&#34;Phsbot声明&#34;&gt;&lt;a href=&#34;#Phsbot声明&#34; class=&#34;headerlink&#34; title=&#34;Phsbot声明&#34;&gt;&lt;/a&gt;Phsbot声明&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;本机器人和游戏内容无关，请不要再反馈什么：&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;我升级了Phsebot xx版本，用了xx插件，你看这个聊天信息变成什么样子&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;ul&gt;
+&lt;li&gt;你看这个老是出现什么乱七八糟的乱码(注：pfe信息颜色不是乱码！！！！)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;Phsebot命令表&#34;&gt;&lt;a href=&#34;#Phsebot命令表&#34; class=&#34;headerlink&#34; title=&#34;Phsebot命令表&#34;&gt;&lt;/a&gt;Phsebot命令表&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;命令&lt;/th&gt;
+&lt;th&gt;介绍&lt;/th&gt;
+&lt;th&gt;用法&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;bindid&lt;/td&gt;
+&lt;td&gt;绑定xboxid&lt;/td&gt;
+&lt;td&gt;&amp;lt;&amp;lt;bindid “$1”&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;start&lt;/td&gt;
+&lt;td&gt;开服&lt;/td&gt;
+&lt;td&gt;&amp;lt;&amp;lt;start&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;unbind&lt;/td&gt;
+&lt;td&gt;解绑xboxid&lt;/td&gt;
+&lt;td&gt;&amp;lt;&amp;lt;unbind %qqid%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;motd&lt;/td&gt;
+&lt;td&gt;motd请求&lt;/td&gt;
+&lt;td&gt;&amp;lt;&amp;lt;motd xxx.xxx.xxx:19132（端口可省略）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id=&#34;Phsebot占位符&#34;&gt;&lt;a href=&#34;#Phsebot占位符&#34; class=&#34;headerlink&#34; title=&#34;Phsebot占位符&#34;&gt;&lt;/a&gt;Phsebot占位符&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;占位符&lt;/th&gt;
+&lt;th&gt;介绍&lt;/th&gt;
+&lt;th&gt;适用范围&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;%qqnick%&lt;/td&gt;
+&lt;td&gt;qq昵称&lt;/td&gt;
+&lt;td&gt;群消息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%qqid%&lt;/td&gt;
+&lt;td&gt;qq号&lt;/td&gt;
+&lt;td&gt;群消息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%xboxid%&lt;/td&gt;
+&lt;td&gt;qq号绑定的xboxid（没绑定默认为%xboxid%）&lt;/td&gt;
+&lt;td&gt;群消息&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%cpu%&lt;/td&gt;
+&lt;td&gt;cpu占用率&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%ram_1%&lt;/td&gt;
+&lt;td&gt;内存占用百分比&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%ram_2%&lt;/td&gt;
+&lt;td&gt;剩余内存&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%ram_3%&lt;/td&gt;
+&lt;td&gt;已用内存&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%ram_4%&lt;/td&gt;
+&lt;td&gt;总内存&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%server_motd%&lt;/td&gt;
+&lt;td&gt;服务器motd&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%server_version%&lt;/td&gt;
+&lt;td&gt;服务器版本&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%server_online%&lt;/td&gt;
+&lt;td&gt;在线玩家数&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%server_maxonline%&lt;/td&gt;
+&lt;td&gt;最大玩家数&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%server_levelname%&lt;/td&gt;
+&lt;td&gt;服务器存档名&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;\n&lt;/td&gt;
+&lt;td&gt;换行&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;p&gt;Link =&amp;gt; &lt;a href=&#34;https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/&#34;&gt;https://www.txssb.cn/Blogs/2021/09/07/Phsebot命令表/&lt;/a&gt; &amp;lt;=&lt;/p&gt;
+</content>
+        <category term="命令" />
+        <category term="Phsebot" />
+        <updated>2021-09-07T14:56:09.000Z</updated>
+    </entry>
+</feed>
