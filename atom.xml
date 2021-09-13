@@ -4,10 +4,10 @@
     <title>HuoHua的博客</title>
     <link href="https://www.txssb.cn/Blogs" />
     <updated>2021-09-07T14:56:09.000Z</updated>
-    <category term="python" />
-    <category term="phsebot" />
     <category term="命令" />
     <category term="Phsebot" />
+    <category term="python" />
+    <category term="phsebot" />
     <entry>
         <id>https://www.txssb.cn/Blogs/2021/09/07/Phsebot%E5%91%BD%E4%BB%A4%E8%A1%A8/</id>
         <title>Phsebot命令表</title>
@@ -101,7 +101,7 @@
 &lt;td&gt;&amp;lt;&amp;lt;FakePlayer removeall&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
-&lt;h1 id=&#34;Phsebot占位符&#34;&gt;&lt;a href=&#34;#Phsebot占位符&#34; class=&#34;headerlink&#34; title=&#34;Phsebot占位符&#34;&gt;&lt;/a&gt;Phsebot占位符&lt;/h1&gt;&lt;table&gt;
+&lt;h1 id=&#34;Phsebot占位符-QQ信息类&#34;&gt;&lt;a href=&#34;#Phsebot占位符-QQ信息类&#34; class=&#34;headerlink&#34; title=&#34;Phsebot占位符 - QQ信息类&#34;&gt;&lt;/a&gt;Phsebot占位符 - QQ信息类&lt;/h1&gt;&lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;占位符&lt;/th&gt;
@@ -124,7 +124,16 @@
 &lt;td&gt;qq号绑定的xboxid（没绑定默认为%xboxid%）&lt;/td&gt;
 &lt;td&gt;群消息&lt;/td&gt;
 &lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id=&#34;Phsebot占位符-状态信息类&#34;&gt;&lt;a href=&#34;#Phsebot占位符-状态信息类&#34; class=&#34;headerlink&#34; title=&#34;Phsebot占位符 - 状态信息类&#34;&gt;&lt;/a&gt;Phsebot占位符 - 状态信息类&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
 &lt;tr&gt;
+&lt;th&gt;占位符&lt;/th&gt;
+&lt;th&gt;介绍&lt;/th&gt;
+&lt;th&gt;适用范围&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
 &lt;td&gt;%cpu%&lt;/td&gt;
 &lt;td&gt;cpu占用率&lt;/td&gt;
 &lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
@@ -177,6 +186,80 @@
 &lt;tr&gt;
 &lt;td&gt;\n&lt;/td&gt;
 &lt;td&gt;换行&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+&lt;h1 id=&#34;Phsebot占位符-时间类&#34;&gt;&lt;a href=&#34;#Phsebot占位符-时间类&#34; class=&#34;headerlink&#34; title=&#34;Phsebot占位符 - 时间类&#34;&gt;&lt;/a&gt;Phsebot占位符 - 时间类&lt;/h1&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;占位符&lt;/th&gt;
+&lt;th&gt;介绍&lt;/th&gt;
+&lt;th&gt;适用范围&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;%date%&lt;/td&gt;
+&lt;td&gt;当前日期（2021-09-13）&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%time%&lt;/td&gt;
+&lt;td&gt;当前时间（21:23:11）&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%year%&lt;/td&gt;
+&lt;td&gt;当前年份（2021）&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%month%&lt;/td&gt;
+&lt;td&gt;当前月份（09)&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%week_n%&lt;/td&gt;
+&lt;td&gt;当前星期（2）[1-7]。周一为1，以此类推。&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%week_t%&lt;/td&gt;
+&lt;td&gt;当前星期（一）[日、一、二、三、四、五、六]&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%week_j%&lt;/td&gt;
+&lt;td&gt;当前星期（月）[日、月、火、水、木、金、土]&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%day%&lt;/td&gt;
+&lt;td&gt;当前天数（13)&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%hour_12%&lt;/td&gt;
+&lt;td&gt;当前小时（9），十二小时制&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%hour_24%&lt;/td&gt;
+&lt;td&gt;当前小时（21），二十四小时制&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%ampm%&lt;/td&gt;
+&lt;td&gt;当前是上午（AM）还是下午（PM），答曰：PM&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%min%&lt;/td&gt;
+&lt;td&gt;当前分钟（23)&lt;/td&gt;
+&lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;%sec%&lt;/td&gt;
+&lt;td&gt;当前秒数（11)&lt;/td&gt;
 &lt;td&gt;群消息&amp;amp;控制台&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;&lt;/table&gt;
